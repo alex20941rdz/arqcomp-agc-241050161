@@ -194,9 +194,7 @@ El acelerómetro del MPU6050 digitaliza la aceleración con convertidores analó
 
 ### ¿Cómo se convierte la lectura del MPU6050 en un ángulo?
 
-Con el dispositivo estático, la aceleración medida representa la dirección y magnitud de la gravedad. Según la inclinación de la placa, esa fuerza se reparte entre los ejes Y y Z. Para calcular el ángulo de inclinación se usa el arco tangente de dos argumentos, que maneja todos los cuadrantes y evita errores por división entre cero:
-
-$$\theta = \operatorname{atan2}(A_y, A_z) \times \left(\frac{180.0}{\pi}\right)$$
+Con el dispositivo estático, la aceleración medida representa la dirección y magnitud de la gravedad. Según la inclinación de la placa, esa fuerza se reparte entre los ejes Y y Z. 
 
 Cerca de la horizontal, el ángulo se puede aproximar para ángulos pequeños en radianes como:
 
