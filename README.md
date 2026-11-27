@@ -1,6 +1,8 @@
 # ArqComp - AGC
 **Nombre:** Alexandra Rodriguez Gomez 
+
 **Matricula:** 241050161
+
 **Equipo:** dress to impress
 
 ## Enlaces a videos 
